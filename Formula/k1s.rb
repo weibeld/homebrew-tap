@@ -1,8 +1,8 @@
 class K1s < Formula
-  desc "The world's tiniest Kubernetes dashboard (50 lines of Bash code)"
+  desc "The world's simplest Kubernetes dashboard (50 lines of Bash code)"
   homepage "https://github.com/weibeld/k1s"
   url "https://github.com/weibeld/k1s/releases/download/0.1.0/k1s-0.1.0.tar.gz"
-  sha256 "a5a4e6116eefaa16a84dfc9f616611f9d1438d483fa30289446d5c275edee5ca"
+  sha256 "691b9372b72acdabc2264d0741634e579a50b44e8573ba9a0c0329e5cdca270c"
 
   bottle :unneeded
 
