@@ -1,0 +1,14 @@
+name: update-formula
+on:
+  repository_dispatch:
+    types: [update-formula]
+env:
+  FORMULA: ${{ github.event.client_payload.formula }}
+  URL: ${{ github.event.client_payload.url }}
+  SHA256: ${{ github.event.client_payload.sha256 }}
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: test
+        run: echo '${{ toJson(github.event.client_payload) }}
