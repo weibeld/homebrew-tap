@@ -1,26 +1,24 @@
-# weibeld's Homebrew tap
+# Homebrew tap
 
-This is a [Homebrew tap](https://docs.brew.sh/Taps) with my personal Homebrew formulas.
-
-![Homebrew logo](https://docs.brew.sh/assets/img/homebrew-256x256.png)
+This is a [Homebrew tap](https://docs.brew.sh/Taps) with custom Homebrew formulas.
 
 ## Usage
 
 You can install any formula in this tap with:
 
 ```bash
-brew install weibeld/core/<formula>
+brew install weibeld/tap/<formula>
 ```
 
-The above command installs the tap (`weibeld/core`) and the formula (`<formula>`) in a single step.
+The above command installs both the tap (`weibeld/tap`) and the formula (`<formula>`) in a single step.
 
-Alternatively, you can install only the tap with:
+Alternatively, you can install the tap and the formula separately:
 
 ```bash
-brew tap weibeld/core
+brew tap weibeld/tap
 ```
 
-And once the tap is installed, you can install all the formulas in this tap with:
+And then:
 
 ```bash
 brew install <formula>

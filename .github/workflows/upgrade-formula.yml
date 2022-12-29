@@ -8,7 +8,7 @@ jobs:
       FORMULA: ${{ github.event.client_payload.formula }}
       URL: ${{ github.event.client_payload.url }}
       SHA256: ${{ github.event.client_payload.sha256 }}
-      TAP_DIR: /usr/local/Homebrew/Library/Taps/weibeld/homebrew-core
+      TAP_DIR: /usr/local/Homebrew/Library/Taps/weibeld/homebrew-tap
     runs-on: macos-latest
     steps:
       - name: check-input
