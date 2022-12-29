@@ -15,7 +15,3 @@ jobs:
           for f in Formula/*.rb; do
             brew test-bot "$f"
           done
-          #HOMEBREW_TAP_DIR=/usr/local/Homebrew/Library/Taps/weibeld/homebrew-core
-          #mkdir -p "${HOMEBREW_TAP_DIR%/*}"
-          #ln -s "$PWD" "$HOMEBREW_TAP_DIR"
-          #brew test-bot
